@@ -1,6 +1,6 @@
 # PendulumEnergix
 
-**PendulumEnergix** is a dynamic project that visually showcases the intriguing relationship between potential and kinetic energy. Through an engaging pendulum animation, this project offers an interactive exploration of energy transformations and the elegant dance of physics in motion.
+**PendulumEnergix** is a dynamic project that visually showcases the intriguing relationship between potential and kinetic energy. Through an engaging pendulum animation, this project offers an interactive exploration of energy transformations and the elegant animation of physics in motion.
 
 Step into the world of PendulumEnergix and unveil the captivating interplay between potential and kinetic energy. Through a mesmerizing pendulum animation, this project offers an illuminating exploration of energy transformations in an engaging and concise manner.
 
