@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Potential and Kinetic Energy Animation</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  
+</head>
+<body>
+  
+  <canvas id="canvas"></canvas>
+  
+
+  <div class="controls">
+    <div class="newtons-cradle">
+      <div class="newtons-cradle_dot"></div>
+      <div class="newtons-cradle_dot"></div>
+      <div class="newtons-cradle_dot"></div>
+      <div class="newtons-cradle_dot"></div>
+    </div>
+    <label for="angle-slider">Angle:</label>
+    <input type="range" id="angle-slider" min="0" max="180" value="45">
+    <button id="animate-button" style="border-radius: 5px ; ">Stop Animation</button>
+ <br></br>
+    <button id="potential-energy-button">Show Potential Energy</button>
+    <button id="kinetic-energy-button">Show Kinetic Energy</button>
+    <button id="toggleBtn">Toggle Conepts Learned</button>
+  </div>
+
+  <div id="concept-list">
+    <ul>
+      <li>Concept 1</li>
+      <li>Concept 2</li>
+      <li>Concept 3</li>
+    </ul>
+  </div>
+  <div id="footer">
+    <ul>
+      <li id="f"><a href="https://linktr.ee/itspragya">Made by Pragya • Linktree 👋</a></li>
+      
+    </ul>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
