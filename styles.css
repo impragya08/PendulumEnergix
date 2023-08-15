@@ -141,7 +141,17 @@ canvas {
          display: block;
 }
 
-
+/* Media query for small screens */
+@media (max-width: 768px) {
+  canvas {
+    width: 100%; /* Make the canvas take up the full width of the screen */
+    max-width: 100%; /* Set maximum width to prevent stretching */
+    margin-left: 0; /* Remove left margin */
+    margin-right: 0; /* Remove right margin */
+  }
+  
+ 
+}
 
 
 .newtons-cradle {
