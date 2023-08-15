@@ -1,9 +1,24 @@
 document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
-canvas.width = window.innerWidth * 0.4;
-canvas.height = window.innerHeight * 0.6;
+window.addEventListener('load', () => {
+  const canvas = document.querySelector('canvas');
 
-// Rest of your JavaScript code remains the same...
+  function adjustCanvasDimensions() {
+    const containerWidth = canvas.parentElement.clientWidth; // Get the container's width
+    const canvasWidth = containerWidth * 0.5; // Adjust as needed
+    const canvasHeight = canvasWidth * 0.5; // Adjust as needed
+    canvas.width = canvasWidth;
+    canvas.height = canvasHeight;
+  }
+
+  // Initial adjustment
+  adjustCanvasDimensions();
+
+  // Adjust dimensions when the window is resized
+  window.addEventListener('resize', adjustCanvasDimensions);
+});
+
+
 
 let animationFrameId;
 let animating = true;
