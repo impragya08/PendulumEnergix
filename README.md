@@ -5,7 +5,7 @@
 Step into the world of PendulumEnergix and unveil the captivating interplay between potential and kinetic energy. Through a mesmerizing pendulum animation, this project offers an illuminating exploration of energy transformations in an engaging and concise manner.
 
 ## Live Link- Try it here
-https://64da9d336336bd03113662d9--enchanting-hummingbird-432efc.netlify.app/
+https://64db2fa63f855736fb05155c--symphonious-naiad-f78d21.netlify.app/
 
 ![Screenshot (123)](https://github.com/impragya08/PendulumEnergix/assets/84717393/20e045a7-fed2-4909-b938-22b16b9b26a6)
 
